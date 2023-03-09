@@ -12,13 +12,17 @@ private:
 	int ancho;
 	string TipoBorde;
 	string imagenFondo;
-	int Puntaje;
+	int puntaje;
 	int MejorPuntaje;
 	int nivel;
 	int numeroVidas;
 	Tablero tablero;
 
 public:
+	Escenario() {
+		puntaje = 0;
+	}
+
 	void setNombre(string _nombre) { nombre = _nombre; }
 	string getNombre() { return nombre; }
 

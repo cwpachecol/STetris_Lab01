@@ -6,7 +6,9 @@ void Tablero::incializarTablero()
 {
 	filaActual = 0;
 	numeroFilasEliminadas = 0;
+	//Debemos cambiar todos los objeto comunes por manejor por punteros
 	//bloqueSiguiente = NULL;
+
 }
 
 bool Tablero::rotarBloque()
