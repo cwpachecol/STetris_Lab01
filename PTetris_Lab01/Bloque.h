@@ -17,6 +17,10 @@ private:
 	int posicionX;
 	int posicionY;
 public:
+	void mostrar() {
+		cout << "Soy de la clase bloque" << endl;
+	}
+	virtual void rotar(float _angulo) = 0;
 protected:
 
 };

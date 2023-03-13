@@ -8,7 +8,7 @@ private:
 	int filaLimiteSuperior;
 	int filaActual;
 	int numeroFilasEliminadas;
-	Bloque bloqueSiguiente;
+	//Bloque bloqueSiguiente;
 
 public:
 	Tablero() {
