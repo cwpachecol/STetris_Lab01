@@ -12,11 +12,15 @@ int main() {
 	//Bloque objetoBloque;
 
 	//objetoBloque.mostrar();
-	BloqueAvanzado objetoBloqueAvanzado;
-	objetoBloqueAvanzado.rotar(10.5f);
+	BloqueAvanzado objetoBloqueAvanzado01;
+	objetoBloqueAvanzado01.rotar(10.5f);
 
 	BloqueConvencional objetoBloqueConvencional;
 	objetoBloqueConvencional.rotar(90.3f);
+
+	BloqueAvanzado objetoBloqueAvanzado02;
+
+	cout << "Se han creado: " << objetoBloqueAvanzado02.getCantidadBloques() << " objetos Bloque" << endl;
 
 	cout << "Hola bienvenido al mundo de Tetris." << endl;
 

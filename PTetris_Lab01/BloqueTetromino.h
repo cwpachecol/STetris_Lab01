@@ -10,6 +10,7 @@ class BloqueTetromino :
 private:
 	array<array<string, 4>, 4> apariencia;
 	bool conRotacion;
+
 public:
 	BloqueTetromino();
 	BloqueTetromino(int _x, int _y, int _ancho, int _alto, int _color);
